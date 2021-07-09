@@ -19,8 +19,8 @@ function handleIndex(request, response) {
     apiversion: '1',
     author: 'Sonichigo',
     color: '#3E338F',
-    head: 'beluga',
-    tail: 'round-bum'
+    head: 'fang',
+    tail: 'curled'
   }
   response.status(200).json(battlesnakeInfo)
 }
