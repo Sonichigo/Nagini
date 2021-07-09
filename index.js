@@ -73,7 +73,7 @@ function getNewPos(headCoord, move) {
       newPos.y = headCoord.y + 1
       break
     case 'down':
-      newPos.y = headCoord.y - 1
+      newPos.y = headCoord.y + 1
       break
     case 'left':
       newPos.x = headCoord.x - 1
