@@ -93,7 +93,7 @@ function handleMove(request, response) {
 
   var possibleMoves = ['up', 'down', 'left', 'right']
   var i = 0
-  while (i < 10) {
+  while (i < 4) {
     var move = possibleMoves[i]
     var newHeadPos = getNewPos(yourSnake.head, move)
     headHitsWall = hitsWall(newHeadPos, board.width, board.height)
